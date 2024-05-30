@@ -47,7 +47,7 @@ static void setup_pause_buttons(pause_t **pause, sfRenderWindow *window,
 static int setup_pause_sprites(pause_t **pause, sfRenderWindow *window)
 {
     sfVector2f pos = get_resize(window, 960, 120);
-    char *texts[3] = {"Reprendre", "Menu Principale", "Quitter"};
+    char *texts[3] = {"Reprendre", "Menu Principal", "Quitter"};
 
     (*pause)->font = sfFont_createFromFile(FONT);
     setup_pause_sign(pause, window, &pos);

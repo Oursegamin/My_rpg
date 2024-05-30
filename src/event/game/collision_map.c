@@ -116,7 +116,7 @@ static void map_move(game_t *game)
 static int sprite_move_player(game_t *game, sfRenderWindow *window)
 {
     if (sfTime_asMilliseconds(sfClock_getElapsedTime
-        (game->player->sprites->move_clock)) > 1) {
+        (game->player->sprites->move_clock)) > 0.6) {
         if (game->player_move.x != 0 && left_right(game) == OK) {
             sfSprite_move(game->player->sprites->player,
             (sfVector2f){game->player_move.x, 0});
