@@ -4,11 +4,11 @@
 
 ## Contributors
 
-- Baptiste Blambert
-- Axel Lavrador
-- Florian Labadie
-- Armand Dufresne
-- Faris Khsime
+- Baptiste Blambert ([GITHUB](https://github.com/baptistebd))
+- Axel Lavrador ([GITHUB](https://github.com/florian-labadie))
+- Florian Labadie ([GITHUB](https://github.com/Oursegamin))
+- Armand Dufresne ([GITHUB](https://github.com/Beezarment))
+- Faris Khsime ([GITHUB](https://github.com/fariskhsime))
 
 ## Description
 
@@ -44,7 +44,7 @@ $> valgrind --leak-check=full --show-leak-kinds=all -s ./my_rpg
 
 | Commit Type | Description                                                                                                               |
 |:------------|:--------------------------------------------------------------------------------------------------------------------------|
-| add         | adding new features                                                                                                       |
+| feat        | adding new features                                                                                                       |
 | modified    | changes on a file                                                                                                         |
 | build       | Changes that affect the build system or external dependencies (npm, make, etc.)                                           |
 | ci          | Changes related to integration files and scripts or configuration (Travis, Ansible, BrowserStack, etc.)                   |
